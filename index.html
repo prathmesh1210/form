@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration form </title>
+    <link rel="stylesheet" href="style.css">
+     <style>
+       
+    </style> 
+</head>
+
+<body>
+
+    <div class="container">
+        <h1> Registration form </h1>
+        <hr>
+        <form action=" post">
+
+            <div class="first">
+                <label for=" username"> Firstname </label>
+                <input type="text" id=" text" placeholder=" Enter  your name">
+
+            </div>
+            <div class="second">
+                <label for=" username "> Lastname </label>
+                <input type="text" id=" text" placeholder=" Enter your name">
+
+            </div>
+
+            <div class="gender">
+                <label for=" Gender"> Gender </label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for=" male"> Male </label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for=" female"> Female </label>
+            </div>
+
+            <div class="birth">
+                <label for=" DOB"> DOB</label>
+                <select name=" dates" id=" dates">
+                    <option value=" 1"> 1</option>
+                    <option value=" 2"> 2</option>
+                    <option value=" 3"> 3</option>
+                    <option value=" 12"> 12</option>
+                </select>
+
+                <select name=" month" id=" month">
+                    <option value=" jan"> jan</option>
+                    <option value=" Feb"> feb</option>
+                    <option value=" mar"> march</option>
+                    <option value=" october"> october</option>
+                </select>
+
+                <select name=" year" id=" year">
+                    <option value=" 2001"> 2001</option>
+                    <option value=" 2003"> 2003</option>
+                    <option value=" 2005"> 2005</option>
+                    <option value=" 2004"> 2004</option>
+                </select>
+
+
+            </div>
+
+            <div class="add">
+                <label for=" Address"> Address</label>
+                <textarea name=" address" id=" address"> </textarea>
+            </div>
+
+            <div class="check">
+                <label for=" courses"> courses</label>
+                <input type="checkbox" id=" course" name="course" value="yes">
+                <label for=" BCA"> BCA</label>
+
+                <input type="checkbox" id=" course" name="course" value="yes">
+                <label for=" BCs"> BCS</label>
+                <input type="checkbox" id=" course" name="course" value="yes">
+                <label for=" BCA"> DSA</label>
+                <input type="checkbox" id=" course" name="course" value="yes">
+                <label for=" BCA"> DATA STRUCTURE</label>
+                <input type="checkbox" id=" course" name="course" value="yes">
+                <label for=" BCA"> ALGORITHM</label>
+
+            </div>
+            <div class="email">
+                <label for=" email"> Email </label>
+                <input type="email" id=" text" placeholder=" email">
+            </div>
+            <div class="pass">
+                <label for=" password"> Password</label>
+                <input type="password" id="password" placeholder="password">
+            </div>
+            <hr>
+            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+            <div class="btn">
+                <button type="submit" class="registerbtn">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
